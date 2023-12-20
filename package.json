@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "source": "./assets/ts/index.ts",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1",
+    "tiny-slider": "^2.9.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "main": "./assets/js/index.cjs",
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
